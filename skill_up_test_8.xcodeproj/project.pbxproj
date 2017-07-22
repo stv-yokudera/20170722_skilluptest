@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1D8D748C788DFA645658FA /* Pods_skill_up_test_8_skill_up_test_8Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6238F35D631D47973F63CC /* Pods_skill_up_test_8_skill_up_test_8Tests.framework */; };
+		8B319E4F295418A6E38A5E0F /* Pods_skill_up_test_8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC7130F2C84F3B2B438EEFB /* Pods_skill_up_test_8.framework */; };
 		B66A89681F22DB4E00293A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89671F22DB4E00293A1E /* AppDelegate.swift */; };
-		B66A896A1F22DB4E00293A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89691F22DB4E00293A1E /* ViewController.swift */; };
-		B66A896D1F22DB4E00293A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66A896B1F22DB4E00293A1E /* Main.storyboard */; };
 		B66A896F1F22DB4E00293A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66A896E1F22DB4E00293A1E /* Assets.xcassets */; };
 		B66A89721F22DB4E00293A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66A89701F22DB4E00293A1E /* LaunchScreen.storyboard */; };
 		B66A897D1F22DB4F00293A1E /* skill_up_test_8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A897C1F22DB4F00293A1E /* skill_up_test_8Tests.swift */; };
+		B66A89901F22DCF700293A1E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A898F1F22DCF700293A1E /* ChatViewController.swift */; };
+		B66A89921F22DCFF00293A1E /* ChatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66A89911F22DCFF00293A1E /* ChatViewController.storyboard */; };
+		B66A89961F22E13300293A1E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89931F22E13300293A1E /* Logger.swift */; };
+		B66A89971F22E13300293A1E /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89951F22E13300293A1E /* RealmDaoHelper.swift */; };
+		B66A89991F22E23600293A1E /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89981F22E23600293A1E /* ChatTableViewCell.swift */; };
+		B66A899E1F22E30000293A1E /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A899D1F22E30000293A1E /* Chat.swift */; };
+		B66A89A01F22E35700293A1E /* ChatDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A899F1F22E35700293A1E /* ChatDao.swift */; };
+		B66A89A21F22E45900293A1E /* ChatTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89A11F22E45900293A1E /* ChatTableViewProvider.swift */; };
+		B66A89A61F22ED5E00293A1E /* ChatDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89A51F22ED5E00293A1E /* ChatDaoTests.swift */; };
+		B66A89A91F22EF5300293A1E /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A89A81F22EF5300293A1E /* ChatTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +36,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094E3DE4BE6C40AF6E675CE4 /* Pods-skill_up_test_8-skill_up_test_8Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skill_up_test_8-skill_up_test_8Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skill_up_test_8-skill_up_test_8Tests/Pods-skill_up_test_8-skill_up_test_8Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		450C497118A14F39D0BE825B /* Pods-skill_up_test_8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skill_up_test_8.release.xcconfig"; path = "Pods/Target Support Files/Pods-skill_up_test_8/Pods-skill_up_test_8.release.xcconfig"; sourceTree = "<group>"; };
+		4FC7130F2C84F3B2B438EEFB /* Pods_skill_up_test_8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skill_up_test_8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E1252D85F610A010FC5C5B /* Pods-skill_up_test_8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skill_up_test_8.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skill_up_test_8/Pods-skill_up_test_8.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6238F35D631D47973F63CC /* Pods_skill_up_test_8_skill_up_test_8Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skill_up_test_8_skill_up_test_8Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A89641F22DB4E00293A1E /* skill_up_test_8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skill_up_test_8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A89671F22DB4E00293A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B66A89691F22DB4E00293A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B66A896C1F22DB4E00293A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B66A896E1F22DB4E00293A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66A89711F22DB4E00293A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B66A89731F22DB4E00293A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66A89781F22DB4F00293A1E /* skill_up_test_8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skill_up_test_8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A897C1F22DB4F00293A1E /* skill_up_test_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skill_up_test_8Tests.swift; sourceTree = "<group>"; };
 		B66A897E1F22DB4F00293A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66A898F1F22DCF700293A1E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B66A89911F22DCFF00293A1E /* ChatViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatViewController.storyboard; sourceTree = "<group>"; };
+		B66A89931F22E13300293A1E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B66A89951F22E13300293A1E /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		B66A89981F22E23600293A1E /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		B66A899D1F22E30000293A1E /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		B66A899F1F22E35700293A1E /* ChatDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDao.swift; sourceTree = "<group>"; };
+		B66A89A11F22E45900293A1E /* ChatTableViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewProvider.swift; sourceTree = "<group>"; };
+		B66A89A51F22ED5E00293A1E /* ChatDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDaoTests.swift; sourceTree = "<group>"; };
+		B66A89A81F22EF5300293A1E /* ChatTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTests.swift; sourceTree = "<group>"; };
+		DFC63BAB35BE05F1E1D4F7AB /* Pods-skill_up_test_8-skill_up_test_8Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skill_up_test_8-skill_up_test_8Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-skill_up_test_8-skill_up_test_8Tests/Pods-skill_up_test_8-skill_up_test_8Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B319E4F295418A6E38A5E0F /* Pods_skill_up_test_8.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +75,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1D8D748C788DFA645658FA /* Pods_skill_up_test_8_skill_up_test_8Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4A281906104B4F1375E6B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC7130F2C84F3B2B438EEFB /* Pods_skill_up_test_8.framework */,
+				AF6238F35D631D47973F63CC /* Pods_skill_up_test_8_skill_up_test_8Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31BD4EB9280EF6524A55E7BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E1252D85F610A010FC5C5B /* Pods-skill_up_test_8.debug.xcconfig */,
+				450C497118A14F39D0BE825B /* Pods-skill_up_test_8.release.xcconfig */,
+				094E3DE4BE6C40AF6E675CE4 /* Pods-skill_up_test_8-skill_up_test_8Tests.debug.xcconfig */,
+				DFC63BAB35BE05F1E1D4F7AB /* Pods-skill_up_test_8-skill_up_test_8Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B66A895B1F22DB4E00293A1E = {
 			isa = PBXGroup;
 			children = (
 				B66A89661F22DB4E00293A1E /* skill_up_test_8 */,
 				B66A897B1F22DB4F00293A1E /* skill_up_test_8Tests */,
 				B66A89651F22DB4E00293A1E /* Products */,
+				31BD4EB9280EF6524A55E7BD /* Pods */,
+				0C4A281906104B4F1375E6B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +125,13 @@
 		B66A89661F22DB4E00293A1E /* skill_up_test_8 */ = {
 			isa = PBXGroup;
 			children = (
-				B66A89671F22DB4E00293A1E /* AppDelegate.swift */,
-				B66A89691F22DB4E00293A1E /* ViewController.swift */,
-				B66A896B1F22DB4E00293A1E /* Main.storyboard */,
-				B66A896E1F22DB4E00293A1E /* Assets.xcassets */,
-				B66A89701F22DB4E00293A1E /* LaunchScreen.storyboard */,
-				B66A89731F22DB4E00293A1E /* Info.plist */,
+				B66A898D1F22DCA200293A1E /* Utils */,
+				B66A898C1F22DC9D00293A1E /* Others */,
+				B66A898B1F22DC9600293A1E /* Helpers */,
+				B66A898A1F22DC9000293A1E /* Extensions */,
+				B66A89891F22DC8000293A1E /* Controllers */,
+				B66A89881F22DC7C00293A1E /* Views */,
+				B66A89871F22DC7800293A1E /* Models */,
 			);
 			path = skill_up_test_8;
 			sourceTree = "<group>";
@@ -90,10 +139,137 @@
 		B66A897B1F22DB4F00293A1E /* skill_up_test_8Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B66A89A31F22ED3600293A1E /* Models */,
 				B66A897C1F22DB4F00293A1E /* skill_up_test_8Tests.swift */,
 				B66A897E1F22DB4F00293A1E /* Info.plist */,
 			);
 			path = skill_up_test_8Tests;
+			sourceTree = "<group>";
+		};
+		B66A89871F22DC7800293A1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B66A899B1F22E2A000293A1E /* Realm_Dto */,
+				B66A899A1F22E28F00293A1E /* Realm_Dao */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B66A89881F22DC7C00293A1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89981F22E23600293A1E /* ChatTableViewCell.swift */,
+				B66A89A11F22E45900293A1E /* ChatTableViewProvider.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B66A89891F22DC8000293A1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B66A899C1F22E2B100293A1E /* Startup */,
+				B66A898E1F22DCE700293A1E /* Chat */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B66A898A1F22DC9000293A1E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B66A898B1F22DC9600293A1E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89931F22E13300293A1E /* Logger.swift */,
+				B66A89941F22E13300293A1E /* Realm */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B66A898C1F22DC9D00293A1E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89671F22DB4E00293A1E /* AppDelegate.swift */,
+				B66A896E1F22DB4E00293A1E /* Assets.xcassets */,
+				B66A89731F22DB4E00293A1E /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		B66A898D1F22DCA200293A1E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B66A898E1F22DCE700293A1E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B66A898F1F22DCF700293A1E /* ChatViewController.swift */,
+				B66A89911F22DCFF00293A1E /* ChatViewController.storyboard */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		B66A89941F22E13300293A1E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89951F22E13300293A1E /* RealmDaoHelper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B66A899A1F22E28F00293A1E /* Realm_Dao */ = {
+			isa = PBXGroup;
+			children = (
+				B66A899F1F22E35700293A1E /* ChatDao.swift */,
+			);
+			name = Realm_Dao;
+			sourceTree = "<group>";
+		};
+		B66A899B1F22E2A000293A1E /* Realm_Dto */ = {
+			isa = PBXGroup;
+			children = (
+				B66A899D1F22E30000293A1E /* Chat.swift */,
+			);
+			name = Realm_Dto;
+			sourceTree = "<group>";
+		};
+		B66A899C1F22E2B100293A1E /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89701F22DB4E00293A1E /* LaunchScreen.storyboard */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+		B66A89A31F22ED3600293A1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89A71F22EF4500293A1E /* Realm_Dto */,
+				B66A89A41F22ED4700293A1E /* Realm_Dao */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B66A89A41F22ED4700293A1E /* Realm_Dao */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89A51F22ED5E00293A1E /* ChatDaoTests.swift */,
+			);
+			name = Realm_Dao;
+			sourceTree = "<group>";
+		};
+		B66A89A71F22EF4500293A1E /* Realm_Dto */ = {
+			isa = PBXGroup;
+			children = (
+				B66A89A81F22EF5300293A1E /* ChatTests.swift */,
+			);
+			name = Realm_Dto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B66A89811F22DB4F00293A1E /* Build configuration list for PBXNativeTarget "skill_up_test_8" */;
 			buildPhases = (
+				9077A803827274AA1DE3A3E7 /* [CP] Check Pods Manifest.lock */,
 				B66A89601F22DB4E00293A1E /* Sources */,
 				B66A89611F22DB4E00293A1E /* Frameworks */,
 				B66A89621F22DB4E00293A1E /* Resources */,
+				3BF94F1AC2CD8A522DAEB976 /* [CP] Embed Pods Frameworks */,
+				53A53715910D352641FD3F16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B66A89841F22DB4F00293A1E /* Build configuration list for PBXNativeTarget "skill_up_test_8Tests" */;
 			buildPhases = (
+				C230BCCB922611EC9DCB5314 /* [CP] Check Pods Manifest.lock */,
 				B66A89741F22DB4F00293A1E /* Sources */,
 				B66A89751F22DB4F00293A1E /* Frameworks */,
 				B66A89761F22DB4F00293A1E /* Resources */,
+				79054C9DF3FA1BC2F7EAB45B /* [CP] Embed Pods Frameworks */,
+				0CF7EE1DA830080ACFFB1E5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +365,7 @@
 			files = (
 				B66A89721F22DB4E00293A1E /* LaunchScreen.storyboard in Resources */,
 				B66A896F1F22DB4E00293A1E /* Assets.xcassets in Resources */,
-				B66A896D1F22DB4E00293A1E /* Main.storyboard in Resources */,
+				B66A89921F22DCFF00293A1E /* ChatViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +378,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CF7EE1DA830080ACFFB1E5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skill_up_test_8-skill_up_test_8Tests/Pods-skill_up_test_8-skill_up_test_8Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF94F1AC2CD8A522DAEB976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skill_up_test_8/Pods-skill_up_test_8-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A53715910D352641FD3F16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skill_up_test_8/Pods-skill_up_test_8-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79054C9DF3FA1BC2F7EAB45B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skill_up_test_8-skill_up_test_8Tests/Pods-skill_up_test_8-skill_up_test_8Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9077A803827274AA1DE3A3E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C230BCCB922611EC9DCB5314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B66A89601F22DB4E00293A1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66A896A1F22DB4E00293A1E /* ViewController.swift in Sources */,
+				B66A89901F22DCF700293A1E /* ChatViewController.swift in Sources */,
+				B66A899E1F22E30000293A1E /* Chat.swift in Sources */,
+				B66A89A01F22E35700293A1E /* ChatDao.swift in Sources */,
 				B66A89681F22DB4E00293A1E /* AppDelegate.swift in Sources */,
+				B66A89A21F22E45900293A1E /* ChatTableViewProvider.swift in Sources */,
+				B66A89991F22E23600293A1E /* ChatTableViewCell.swift in Sources */,
+				B66A89961F22E13300293A1E /* Logger.swift in Sources */,
+				B66A89971F22E13300293A1E /* RealmDaoHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +491,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66A89A61F22ED5E00293A1E /* ChatDaoTests.swift in Sources */,
+				B66A89A91F22EF5300293A1E /* ChatTests.swift in Sources */,
 				B66A897D1F22DB4F00293A1E /* skill_up_test_8Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +508,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B66A896B1F22DB4E00293A1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B66A896C1F22DB4E00293A1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B66A89701F22DB4E00293A1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +616,7 @@
 		};
 		B66A89821F22DB4F00293A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E1252D85F610A010FC5C5B /* Pods-skill_up_test_8.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
@@ -354,6 +630,7 @@
 		};
 		B66A89831F22DB4F00293A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450C497118A14F39D0BE825B /* Pods-skill_up_test_8.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
@@ -367,6 +644,7 @@
 		};
 		B66A89851F22DB4F00293A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094E3DE4BE6C40AF6E675CE4 /* Pods-skill_up_test_8-skill_up_test_8Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +660,7 @@
 		};
 		B66A89861F22DB4F00293A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC63BAB35BE05F1E1D4F7AB /* Pods-skill_up_test_8-skill_up_test_8Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +693,7 @@
 				B66A89831F22DB4F00293A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66A89841F22DB4F00293A1E /* Build configuration list for PBXNativeTarget "skill_up_test_8Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +702,7 @@
 				B66A89861F22DB4F00293A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
